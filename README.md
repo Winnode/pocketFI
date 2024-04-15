@@ -12,7 +12,7 @@ To install the pocketFI-miner, follow these steps:
     ```
 2. Install dependencies (if not already installed):
     ```bash
-    npm install axios
+    python -m pip install requests
     ```
 3. Extract raw data from tgweb:
     1. Open [Telegram Web](https://t.me/pocketfi_bot/Mining?startapp=6190010328)
@@ -27,7 +27,7 @@ To install the pocketFI-miner, follow these steps:
  	![Account List](https://raw.githubusercontent.com/Winnode/pocketFI/main/accounts.png)
 5. Run the script!
     ```bash
-    node main.js
+    python main.py
     ```
 
 ## Give
